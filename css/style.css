@@ -1,13 +1,17 @@
 body {
 	font-family: 'Lato', sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 }
-
-p {
-	// font-size: 36px;
-}
-h3 {
-	// margin-top: 30px;
+h1 {
+		font-size: 28px;
+	}
+@media only screen and (min-width: 768px){
+	body {
+		font-size: 18px;
+	}
+	h1 {
+		font-size: 34px;
+	}
 }
 a {
 	word-wrap: break-word;
@@ -20,7 +24,7 @@ a {
 .mt-20 {margin-top: 20px;}
 .mb-10 {margin-bottom: 10px;}
 .mb-20 {margin-bottom: 20px;}
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
 	.mt-10-xs {
 		margin-top: 10px;
 	}
